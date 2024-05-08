@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://clafouch.github.io/testing-project246/annotations/c-tait-il-y-a-quatre-ans-canvas-1-test-1.json",
+  "type": "AnnotationPage",
+  "label": "Test 1",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "c-tait-il-y-a-quatre-ans-canvas-1-test-1-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "This is a test annotation",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "3.00,5.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "c-tait-il-y-a-quatre-ans-canvas-1-test-1-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Another test",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "6.3"
+        }
+      }
+    }
+  ]
+}

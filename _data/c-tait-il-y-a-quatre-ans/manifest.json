@@ -8,6 +8,16 @@
         "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/canvas",
         "type": "Canvas",
         "duration": 568.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://clafouch.github.io/testing-project246/annotations/c-tait-il-y-a-quatre-ans-canvas-1-test-1.json",
+            "label": {
+              "none": ["Test 1"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/paintings",
