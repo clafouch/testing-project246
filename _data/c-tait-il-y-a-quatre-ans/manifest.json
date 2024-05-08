@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "C'était il y a quatre ans" ] },
+    "items": [
+      {
+        "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 568.0,
+        "items": [
+          {
+            "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://dlib.indiana.edu/avannotate/bouchard/IL_YA_QUATREANS_4KDCI_H264_VOST-high.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 568.0
+                },
+                "target": "https://clafouch.github.io/testing-project246/c-tait-il-y-a-quatre-ans/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
