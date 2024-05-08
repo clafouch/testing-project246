@@ -1,5 +1,5 @@
 ---
-layout: aviary
+layout: item
 title: C'était il y a quatre ans
 manifest_name: c-tait-il-y-a-quatre-ans
 permalink: c-tait-il-y-a-quatre-ans
